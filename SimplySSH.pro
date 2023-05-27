@@ -9,13 +9,16 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    src/ScriptForm.cpp \
     src/SimplySSH.cpp \
     src/main.cpp
 
 HEADERS += \
+    src/ScriptForm.h \
     src/SimplySSH.h
 
 FORMS += \
+    src/ui/ScriptForm.ui \
     src/ui/SimplySSH.ui
 
 # Default rules for deployment.
